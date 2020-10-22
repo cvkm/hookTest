@@ -7,6 +7,7 @@ void func4()
 {
 
     cout<<"Gprof Testing"<<endl;
+    cout<<"Adding Change 1"<<endl;
 
 }
 
@@ -33,6 +34,7 @@ void func1()
 
 {
     cout<<"Function 1"<<endl;
+    cout<<"Adding Change 2"<<endl;
     int i=1000;
     while(i>0){
         func2();
