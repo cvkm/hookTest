@@ -16,4 +16,5 @@ int main(int argc, char **argv) {
         foo();
     bar("str");
     printf("main\n");
+    printf("Change\n");
 }
