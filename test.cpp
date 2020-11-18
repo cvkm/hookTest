@@ -18,6 +18,7 @@ int main() {
   
   NS::Foo f;
   f.bar();
+  cout<<"Adding change 1"<<endl;
   private_symbol();
 }
 
@@ -26,4 +27,5 @@ void __cdecl foo_cdecl() {}
 void __stdcall foo_stdcall() {}
 void __fastcall foo_fastcall() {}
 void __vectorcall foo_vectorcall() {}
+cout<<"Adding change 2"<<endl;
 }
